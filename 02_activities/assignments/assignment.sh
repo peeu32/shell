@@ -45,6 +45,6 @@ cp data/raw/rawdata/*user*log* data/processed/user_logs && cp data/raw/rawdata/*
 ls >> data/inventory.txt data/processed/*
 
 
-###########################################
+############################################
 
 echo "Project setup is complete!"
