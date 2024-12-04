@@ -43,7 +43,7 @@ cp data/raw/rawdata/*user*log*.log data/processed/user_logs && cp data/raw/rawda
 rm -f data/raw/rawdata/*ipaddr* && rm -f data/processed/user_logs/*ipaddr*
 
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
-ls >> data/inventory.txt data/processed/*
+find data/processed -type f > data/inventory.txt
 
 
 #############################################
